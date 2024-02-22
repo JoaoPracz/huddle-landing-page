@@ -1,0 +1,78 @@
+@media(max-width:375px) {
+
+    body {
+        background: url(../images/bg-mobile.svg)no-repeat;
+        background-size: 58vh;
+        background-color: var(--primary-dark);
+    }
+
+    .container .header {
+        margin-bottom: 40px;
+        margin-left: 80px;
+    }
+
+    .container .header img{
+        max-width: 25vw;
+    }
+
+    .container .main {
+        display: flex;
+        flex-direction: column;
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
+    .container .main img {
+        width: 60vw;
+        margin-bottom: 40px;
+    }
+
+    .container .main .txt {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+     }
+    
+    .container .main .txt h2 {
+        font-size: 2.5rem;
+    }
+
+    .container .main .txt p {
+        font-size: 1.45rem;
+    }
+
+    .container .main .txt a{
+        text-align: center;
+        min-width: 35vw;
+    }
+
+    .container .footer {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .container .footer .credits {
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 870px) {
+    .container .main img {
+        max-width: 50vw;
+    }
+
+    .container .main .txt h2{
+        font-size: 1.8rem;
+    }
+
+    .container .main .txt p {
+        font-size: 1.2rem;
+    }
+    .container .main .txt a {
+        text-align: center;
+    }
+
+}
