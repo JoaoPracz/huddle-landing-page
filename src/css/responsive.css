@@ -1,8 +1,8 @@
-@media(max-width:375px) {
+@media(max-width:1120px) {
 
     body {
         background: url(../images/bg-mobile.svg)no-repeat;
-        background-size: 58vh;
+        background-size: 100vh;
         background-color: var(--primary-dark);
     }
 
@@ -23,7 +23,7 @@
     }
 
     .container .main img {
-        width: 60vw;
+        width: 100%;
         margin-bottom: 40px;
     }
 
@@ -50,29 +50,16 @@
     }
 
     .container .footer {
-        align-items: center;
+        display: flex;
         margin-top: 20px;
+        margin-right: 0;
     }
 
-    .container .footer .credits {
-        font-size: 0.9rem;
+    .container .footer .social-links {
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        font-size: 2rem;
+        margin-bottom: 15%;
     }
-}
-
-@media(max-width: 870px) {
-    .container .main img {
-        max-width: 50vw;
-    }
-
-    .container .main .txt h2{
-        font-size: 1.8rem;
-    }
-
-    .container .main .txt p {
-        font-size: 1.2rem;
-    }
-    .container .main .txt a {
-        text-align: center;
-    }
-
 }

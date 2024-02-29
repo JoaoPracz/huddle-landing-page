@@ -11,7 +11,7 @@ body {
 
 .container {
     height: 100vh;
-    max-width: 1210px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -88,22 +88,28 @@ body {
 .container .footer {
     display: flex;
     flex-direction: column;
-    width: 89vw;
+    align-items: center;
+    margin-right: 10%;
 }
 
 .container .footer .social-links {
-    text-align: right;
-    margin-bottom: 35px;
-    font-size: 1.6rem;
+    margin-bottom: 10%;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 70vw;
+    gap: 20px;
+    
 }
 
 .container .footer .social-links i{
     color: #fff;
     border: 1.2px white solid;
     border-radius: 50%;
-    padding: 8px;
+    padding: 14px;
     margin-right: 10px;
     transition: 0.4s;
+    text-align: center;
 }
 
 .container .footer .social-links i:hover {
@@ -112,12 +118,3 @@ body {
 
 }
 
-.container .footer .credits {
-    align-self: center;
-    font-family: 'Poppins';
-    font-size: 1.2rem;
-}
-
-.container .footer .credits span {
-    color: rgb(255, 106, 106);
-}
